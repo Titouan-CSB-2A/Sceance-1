@@ -1,0 +1,16 @@
+# Ignorer les dossiers générés par Visual Studio
+.vs/
+bin/
+obj/
+
+# Ignorer les fichiers temporaires
+*.user
+*.suo
+*.tmp
+*.log
+
+# Ignorer les fichiers de build
+*.exe
+*.dll
+*.pdb
+*.cache
