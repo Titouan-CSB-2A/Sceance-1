@@ -1,3 +1,12 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using System.Drawing;
+
+Console.WriteLine("Hello, World!");
 int exemple = 42;
-Console.WriteLine(exemple);
+Point O = new Point(0, 0);
+Point A = new Point(2, 2);
+Point B = new Point(2, 2);
+Console.WriteLine("O" + O);
+Console.WriteLine("A" + A); 
+Console.WriteLine("B" + B);
+Console.WriteLine("A égale B ? " + A.Equals(B));
+Console.WriteLine("A égale O ? " + A.Equals(O));

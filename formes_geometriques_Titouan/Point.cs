@@ -61,6 +61,16 @@ namespace formes_geometriques_Titouan
         {
             return X == autrePoint.X && Y == autrePoint.Y;
         }
+
+        /// <summary>
+        /// affiche les coordonnées du point sous la forme (X,Y).
+        /// </summary>
+
+        public override string ToString()
+        {
+            return $"({X},{Y})";
+        }
         #endregion
+
     }
 }
