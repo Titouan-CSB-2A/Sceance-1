@@ -9,7 +9,7 @@ namespace formes_geometriques_Titouan
     class Forme
     {
         #region Attributs
-        private Point point;
+        private Point _point;
         #endregion
         #region Constructeurs
         /// <summary>
@@ -17,35 +17,35 @@ namespace formes_geometriques_Titouan
         /// </summary>
         public Forme()
         {
-            point = new Point();
+            _point = new Point();
         }
         /// <summary>
         /// Crée une forme avec un point aux coordonnées (x,y).
         /// </summary>
         public Forme(int x, int y)
         {
-            point = new Point(x, y);
+            _point = new Point(x, y);
         }
         #endregion
         #region Propriétés
         public Point Point
         {
-            get { return point; }
-            set { point = value; }
+            get { return _point; }
+            set { _point = value; }
         }
         #endregion
         #region Méthodes
         /// <summary>
         /// Renvoie 0 car une forme n'a pas d'aire définie.
         /// </summary>
-        public float Aire()
+        public virtual double Aire()
         {
             return 0;
         }
         /// <summary>
         /// Renvoie 0 car une forme n'a pas de périmètre défini.
         /// </summary>
-        public float Perimetre()
+        public virtual double Perimetre()
         {
             return 0;
         }
