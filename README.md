@@ -13,4 +13,4 @@ Ce projet en C# modélise des formes géométriques simples dans un repère orth
 
 ## Utilisation
 
-Exemple d’utilisation dans `Program.cs` :
+Exemple d’utilisation dans `Program.cs`
