@@ -2,12 +2,11 @@
 
 
 Console.WriteLine("Hello, World!");
-int exemple = 42;
 Point O = new Point(0, 0);
 Point A = new Point(2, 2);
 Point B = new Point(2, 2);
 Console.WriteLine("O" + O);
 Console.WriteLine("A" + A); 
 Console.WriteLine("B" + B);
-Console.WriteLine("A égale B ? " + A.Equals(B));
-Console.WriteLine("A égale O ? " + A.Equals(O));
+Console.WriteLine(A.Equals(B) ? "A et B sont égaux" : "A et B sont différents");
+Console.WriteLine(A.Equals(O) ? "A et O sont égaux" : "A et O sont différents");
