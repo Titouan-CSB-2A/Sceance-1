@@ -12,7 +12,7 @@ namespace formes_geometriques_Titouan
     /// Classe Rectangle. Représente un rectangle défini par sa largeur et sa hauteur.
     /// Hérite de la classe Forme.
     /// </summary>
-    class Rectangle : Forme
+    public class Rectangle : Forme
     {
         #region Attributs
         /// <summary>

@@ -12,7 +12,7 @@ namespace formes_geometriques_Titouan
     /// Classe Cercle. Représente un cercle défini par son rayon.
     /// Hérite de la classe Forme.
     /// </summary>
-    class Cercle : Forme
+    public class Cercle : Forme
     {
         #region Attributs
         /// <summary>

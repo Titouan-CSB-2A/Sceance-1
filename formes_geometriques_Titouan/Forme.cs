@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace formes_geometriques_Titouan
 {
-    class Forme
+    public class Forme
     {
         #region Attributs
         private Point _point;

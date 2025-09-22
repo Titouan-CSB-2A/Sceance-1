@@ -11,7 +11,7 @@ namespace formes_geometriques_Titouan
     /// <summary>
     /// Classe Point. Représente un point dans un repère orthonormé.
     /// </summary>
-    class Point
+    public class Point
     {
         #region Attributs
         private int _x;
